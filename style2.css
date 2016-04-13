@@ -1,0 +1,95 @@
+body {
+	background-image: url("sitephotos/luffy.jpg");
+	font-family: verdana;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#div1{background-image: url("sitephotos/luffy.jpg");
+background-size: 400px 700px;
+}
+
+.zoro {height: 100%;
+	width: 100%;
+}
+
+.container {
+	width: 80%;
+	height: 100%;
+	background: #000000;
+	margin: 0 auto;
+	color: #fff;
+}
+
+header {
+	background-color: #ff9000;
+	padding-top: 10px;
+}
+
+header h1 {
+	text-align: center;
+
+}
+h1 { font-weight: bold;
+	text-shadow: 2px 2px 2px #000;
+	font-family: papyrus, fantasy;
+
+}
+
+nav  {
+	background-color: #ccc;
+	padding: 10px;
+}
+
+nav ul {
+	list-style-type: none;
+	text-align: center;
+	text-shadow: 1px 1px 1px #000;
+
+}
+
+nav ul li {
+	display: inline-block;
+	margin: 0 5px;
+	font-size: 20px;
+	font-family: papyrus, fantasy;
+}
+
+li a:link, li a:active, li a:hover,li a:visited {
+	color: #000;
+	text-decoration: none;
+}
+
+li a:hover {
+	text-decoration: underline;
+	font-weight: bold;
+	color: #fff;
+
+}
+
+footer {
+	text-align: left;
+	background-image: url("sitephotos/header_one_piece.jpg");
+	padding: 8%;
+	background-repeat: no-repeat;
+}
+
+main {
+	background-color: #000;
+}
+
+section {
+	width:50%;
+	padding: 15px;
+	display:inline-block;
+	background-color: black;
+}
+
+aside {
+	width: 40%;
+	padding: 5px;
+	float: right;
+}
+footer {
+	clear: both;
+	text-align: center;
+}
